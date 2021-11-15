@@ -1,0 +1,19 @@
+{
+  "name": "simple-library",
+  "version": "0.1.0",
+  "description": "Demo of parceljs bundling a library",
+  "source": "src/add.js",
+  "main": "dist/mainadd.js",
+  "module": "dist/moduleadd.js",
+  "scripts": {
+    "parcel-prod-nooptimize": "parcel build --no-optimize --dist-dir=dist",
+    "parcel-prod-optimize": "parcel build --no-source-maps --dist-dir=dist"
+  },
+  "keywords": ["parcel", "library"],
+  "author": "Rick Dean",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "latest",
+    "http-server": "latest"
+  }
+}
